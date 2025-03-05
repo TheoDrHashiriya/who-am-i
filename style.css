@@ -62,9 +62,9 @@ section {
 
 .home-img img {
   position: relative;
-  margin-right: 5rem;
+  margin-right: 3rem;
   border-radius: 10%;
-  width: 50vh;
+  width: 60vh;
   box-shadow: 0 0 25px solid #420606;
   transition: 0.2s linear;
 }
@@ -107,9 +107,9 @@ section {
   justify-content: center;
   align-items: center;
   position: relative;
-  margin-left: 5rem;
+  margin-left: 1rem;
   border-radius: 2%;
-  width: 100vh;
+  width: 100%;
   box-shadow: 0 0 25px solid #420606;
   transition: 0.2s linear;
 }
