@@ -66,15 +66,22 @@ section {
   border-radius: 10%;
   width: 50vh;
   box-shadow: 0 0 25px solid #420606;
-  cursor: pointer;
   transition: 0.2s linear;
 }
 
 #home {
+  background-color: #ec2a14;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+#certificate {
+  background-color: #420606;
+}
+#about-me {
+  background-color: #970d0d;
+}
+
 .content h1 {
   font-size: 3rem;
   font-weight: 400;
@@ -104,10 +111,27 @@ section {
   border-radius: 2%;
   width: 100vh;
   box-shadow: 0 0 25px solid #420606;
-  cursor: pointer;
   transition: 0.2s linear;
 }
 
-.content h2{
-	justify-content: center;
+.content h2 {
+  justify-content: center;
+}
+
+#about-me .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#about-me h2{
+	margin-top: 2rem;
+}
+
+#me-pic {
+  width: 40vh;
+  max-width: 100%;
+  border-radius: 50%;
+  border: 5px solid #c1ec14;
 }
